@@ -29,7 +29,7 @@ def main():
     sleep(2)
     driver.find_element(by='id', value='CustomerEmail').send_keys('brunoemelife@gmail.com')
     sleep(2)
-    driver.find_element(by='id', value='CustomerPassword').send_keys('bD5@AHQhY8-9zze' + Keys.RETURN)
+    driver.find_element(by='id', value='CustomerPassword').send_keys('*********' + Keys.RETURN)
     sleep(2)
     driver.find_element(by='xpath', value='//*[@id="shopify-section-footer"]/se').click()
     sleep(2)
