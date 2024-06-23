@@ -2,9 +2,6 @@ from selenium import webdriver
 from openvpn_api import VPN
 from selenium.webdriver.common.keys import Keys
 from time import sleep
-import subprocess
-
-
 
 
 # Perform scraping tasks using Selenium
